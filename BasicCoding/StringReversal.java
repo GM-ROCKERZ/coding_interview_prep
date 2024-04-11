@@ -1,4 +1,6 @@
 package BasicCoding;
 
-public class StringReversal {
+public class StringReversal
+{
+
 }
