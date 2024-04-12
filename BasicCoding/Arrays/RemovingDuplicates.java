@@ -20,7 +20,20 @@ public class RemovingDuplicates
 
     private static int[] removeDuplicates(int[] numberWithDuplicates)
     {
-        Arrays.sort();
+        Arrays.sort(numberWithDuplicates);
+        int[] result = new int[numberWithDuplicates.length];
+        int previous = numberWithDuplicates[0];
+        result[0] = previous;
+        for(int i = 1;i< numberWithDuplicates.length;i++)
+        {
+            int ch = numberWithDuplicates[i];
+            if(previous!=ch)
+            {
+                result[i] = ch;
+            }
+            previous = ch;
+        }
+        return result;
     }
 
 }
