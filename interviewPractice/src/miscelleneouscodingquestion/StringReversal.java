@@ -1,4 +1,4 @@
-package miscelleneouscodingquestion;
+package interviewPractice.src.miscelleneouscodingquestion;
 
 public class StringReversal
 {
