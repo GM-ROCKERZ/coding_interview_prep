@@ -3,7 +3,7 @@ package DesignPatterns.singleton;
 public class Clipboard
 {
     private String value;
-    private static Clipboard clipboard =null;
+    private static  Clipboard clipboard =null;
 
     //private constructor to prevent instantiation from outside
     private Clipboard()
@@ -14,7 +14,9 @@ public class Clipboard
     {
         if(clipboard == null)
         {
-            clipboard = new Clipboard();
+            synchronized (Clipboard.class) {
+                clipboard = new Clipboard();
+            }
         }
         return clipboard;
     }

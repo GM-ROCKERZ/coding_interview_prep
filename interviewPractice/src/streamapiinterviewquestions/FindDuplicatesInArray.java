@@ -1,4 +1,4 @@
-package miscelleneouscodingquestion;
+package interviewPractice.src.streamapiinterviewquestions;
 
 import java.util.Arrays;
 import java.util.Collections;
