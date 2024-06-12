@@ -1,0 +1,103 @@
+1. secrets & passwords where we will keep?
+2. routing context & how/where you are defining?
+3. SpringBoot rest endpoint - what & all annotations controllers are used?
+endpoint is taking with database -- controller to all the layers - what are annotations, classes created?
+controller level
+service level
+auto wired repository in services
+4. DI used in SpringBoot -- setter & construction
+5. auto wire is what is the type of injection (constructor)
+6. 3 services -- first service consumes results of second etc.. what is your approach?
+7. have you used web bin client
+8. 2nd service taking more time how you would control (1st service will get time out) - how will you over come
+9. default timeout of each microservice consumption
+10. want to increase the timeout until 90 seconds from 2nd service how you will do
+11. where will we define the connection timeout
+12. increase the # threads based on the requests in peak time - how to handle this (handle each request independently- dependency when multiple services) - how you’re handling this situation
+13. how you are handling this in K8s env (pods, CPU, mem)
+14. how you are managing the security in the microservice (secure of the end point) - not worked
+15. what are the grant types used to secure the end point
+16. what is the circular dependency & how to solve this? in coding how you will resolve
+17. request body attributes (5 attributes are mandatory) - traffic should reject if any of the attribute is missing
+18. error response centralized across the microservice (exception handling globally) - @controller advise
+19. code review sessions - what and all you will review as part of review
+20. have you worked / used GitLab?
+Explain the technical briefing about the project.
+Explain the architecture of your project
+Give me the understanding of spring boot microservice
+What is server less
+Abstract class vs Interface
+What is the use of synchronized key word
+Difference between Runnable and callable interfaces
+Explain single ton design pattern
+What is inversion of control
+Difference between Hibernate and JDBC
+How do you approach unit testing
+Features of java 8 (Stream, Lambda expression, Functional Interfaces, Optional class etc.)
+Features of java 8
+How do you avoid SQL injection
+Have you experienced security vulnerability and how do you overcome this.
+What are streams. Give examples of streams
+Write a code and Filter streams of length >5 and convert it to upper case
+Name few Design patterns
+What is microservice? Define Microservice
+Describe spring boot annotation across layers
+What is Rest template
+How do you call Get method, put method and post method in Rest Template
+What is feign client? how do you use it to invoke it
+What are new features of spring boot 3.0
+What are the advantages of spring boot 3.0
+How do you do asynchronous REST Call
+Explain exception handling in spring boot application
+Define AOP
+How do you write custom exceptions
+How do you rollback
+Define transaction management
+What are the different types of injection. How is constructor injection different from setter injection
+What is actuator
+Write a Rest controller class and implement input validation
+What is controller advice, how do you achieve it
+What is a spring-boot actuator
+What is profile in spring boot application
+How do you maintain code quality in your code base
+How will you write test cases for private methods
+Explain SOLID principles
+What is an Immutable class and how to implement it
+What are Marker interfaces
+What is Circuit breaker in spring-boot
+There is a List of integer..Remove the duplicates from the list.
+There is List of String...find those string who starts with "s" with ignoring Case sensitive
+How do you do the logging for microservices
+How is Ouath2 configured
+Deep knowledge about your project
+How do you handle exception handling in springboot 
+There is a List of String.find only the second index values in a string
+Service Dicovery, API gateway
+What are java 8 features and java 17 features
+How do you implement debug log in spring boot
+How do you configure log4j
+Are you aware of any log monitoring tools
+Difference between mongo db and sql db
+Different types of SQL joins
+Different HTTP status codes
+What is functional interface
+What is optional interface
+New feature of New date and time format.
+What are code quality principles that you follow
+What is MVC,MVVC
+spring annotations
+restemaplate usages
+difference between resttemplate and web client
+Rest end point flow from controller to repo
+Http methods and their usages
+actuator
+health points
+observability
+database
+how do you validate rest body using custom validations
+exception handling in spring boot
+2 coding excersises
+controller layer coding exercise to correct the controller layer
+Service layer coding exercise to correct the Service layer
+@qualifier
+@value
