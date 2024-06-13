@@ -101,3 +101,14 @@ controller layer coding exercise to correct the controller layer
 Service layer coding exercise to correct the Service layer
 @qualifier
 @value
+
+1.SQL JOINS(specially outer joins)
+2.Explain Request flow in the Spring boot application with all the annotations
+3.Spring boot Security,Oauth implementation
+4.Exception handling in Spring boot
+5.Scheduling in DB
+6.Open Api Specifications.
+7.Microservice architecture in your project
+8. 2 coding exercises to explain all layers in sping boot and how to improve those layers.
+9.SequenceGenerator vs UUID
+10.Association implementation in spring JPA
