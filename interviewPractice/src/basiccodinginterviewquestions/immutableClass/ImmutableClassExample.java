@@ -1,6 +1,6 @@
 package interviewPractice.src.basiccodinginterviewquestions.immutableClass;
 
-public class ImmutableClassExample
+public final class ImmutableClassExample
 {
     private final String name;
     private final int age;
