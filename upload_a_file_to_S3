@@ -1,0 +1,35 @@
+@SpringBootApplication
+public class FileUploadApplication
+{
+   @Autowired
+   private AmezonS3 s3Client;
+
+   @PostMapping("/upload")
+   public ResponseEntity<String> uploadFile(@RequestParam("file") MultiPartFile file) throws IOException
+   {
+     if(file.isEmpty())
+     {
+        return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+     }
+     String fileName = file.getOriginalFile();
+     String bucketName = "your_bucket_name";
+     string key = "upload/"+filename;
+
+     try(InputStream inputStream = file.getInputStream())
+     {
+       s3Client.putObject(PutObjecRequest.builder()
+       .bucket(bucketName)
+       .key(key)
+       .contentType(file.getContentType())
+       .contentLength(file.getSize())
+       .inputStream(inputStream)
+       .build())
+     }
+     return new ResponseEntity<>("File uploaded successfully: "+fileName,HttpStatus.Ok);
+   }
+
+   public static void main(String args[])
+   {
+   SpringApplication.run(FileUploadApplication.class,args);
+   }
+}

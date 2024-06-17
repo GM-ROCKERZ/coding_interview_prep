@@ -10,7 +10,7 @@ public class SimulateConcurrentModification
 {
     public static void main(String args[]) throws InterruptedException, ExecutionException
     {
-        List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+        List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5,7,8,9,10));
         ExecutorService executor = Executors.newFixedThreadPool(2);
 
         Callable<Void> modifyTask = () -> {
@@ -27,7 +27,7 @@ public class SimulateConcurrentModification
                 list.stream().forEach(System.out::println);
 
             } catch (ConcurrentModificationException e) {
-                System.out.println("Concurrent modification detectec :" +e);
+                System.out.println("Concurrent modification detectect :" +e);
             }
             return null;
         };

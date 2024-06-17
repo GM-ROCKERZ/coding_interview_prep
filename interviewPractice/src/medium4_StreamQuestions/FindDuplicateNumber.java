@@ -22,9 +22,9 @@ public class FindDuplicateNumber
                 .filter(n->map.get(n)>1)
                 .findFirst()
                 .orElse(0);
-        map.keySet().stream()
-                .filter(x->map.get(x)>1)
-                .forEach(System.out::println);
+//        map.keySet().stream()
+//                .filter(x->map.get(x)>1)
+//                .forEach(System.out::println);
         return duplicate;
     }
 }
