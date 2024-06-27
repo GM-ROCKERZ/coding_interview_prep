@@ -8,7 +8,7 @@ auto wired repository in services
 4. DI used in SpringBoot -- setter & construction
 5. auto wire is what is the type of injection (constructor)
 6. 3 services -- first service consumes results of second etc.. what is your approach?
-7. have you used web bin client
+7. have you used web bin client.
 8. 2nd service taking more time how you would control (1st service will get time out) - how will you over come
 9. default timeout of each microservice consumption
 10. want to increase the timeout until 90 seconds from 2nd service how you will do
@@ -112,3 +112,30 @@ Service layer coding exercise to correct the Service layer
 8. 2 coding exercises to explain all layers in sping boot and how to improve those layers.
 9.SequenceGenerator vs UUID
 10.Association implementation in spring JPA
+
+questions :
+==========
+1.How to debug issue. Explain process
+2.How you handled resilience in your project
+3.explain circuit breaker
+4.Git commands
+5.Explain Async communication implementation
+6.Ingress and service components in kubernates
+7.Configuration changes in kubernates
+8.1 service is calling 2nd and 2nd is calling 3rd and for this 1st service call should be non blocking. How to handle this
+9.explain Streams,functional interface
+10.How you optimized your DB performance and how to optimized queries in Code
+11. Improve performance DB level(indexes)
+12.How you promote your code till production(deployment procedure)
+13.whats the procedure if any issue occurred in production ,how you handle this and you deploy your code again
+14.code review process
+15.explain oauth and spring security
+16.JPA and hibernate questions
+17.explain web client
+
+Behavioural and situation based(by  danielle):
+1.if there is any requirement change after your design document completion ,how you can handle this
+2.If there is any new feature you need to implement which is not in requirement then will you change the requirement?
+3.if you are working on task A and your peer is working in task B and you both need to work on task C,how to handle this
+4.If you need something from system and I am not available in the office, how can you handle this.
+
