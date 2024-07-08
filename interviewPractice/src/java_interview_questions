@@ -5,8 +5,8 @@ endpoint is taking with database -- controller to all the layers - what are anno
 controller level
 service level
 auto wired repository in services
-4. DI used in SpringBoot -- setter & construction
-5. auto wire is what is the type of injection (constructor)
+4. DI used in SpringBoot -- setter , constructor and field injection
+5. auto wire is what is the type of injection -->field injection
 6. 3 services -- first service consumes results of second etc.. what is your approach?
 7. have you used web bin client.
 8. 2nd service taking more time how you would control (1st service will get time out) - how will you over come
