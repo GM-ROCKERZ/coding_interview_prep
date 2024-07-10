@@ -13,7 +13,7 @@ public class ArrayRotation
 
     }
 
-    private static void rightRotation(int[] arr, int num)
+    private static void leftRotation(int[] arr, int num)
     {
         for(int i=0;i<num;i++)
         {
@@ -28,7 +28,7 @@ public class ArrayRotation
 
     }
 
-    private static void leftRotation(int[] arr, int num)
+    private static void rightRotation(int[] arr, int num)
     {
         for(int i = 0;i<num;i++)
         {

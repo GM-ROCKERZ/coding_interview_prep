@@ -15,6 +15,6 @@ public class FindFibonacciSeries
                 f[1],f[0]+f[1]
         }).limit(10)
                 .map(f->f[0])
-                .forEach(System.out::println);
+                .forEach(System.out::print);
     }
 }

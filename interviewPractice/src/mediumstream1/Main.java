@@ -19,12 +19,12 @@ public class Main
                 new Student(9, "Sonu", "Shankar", 27, "Female", "Computer Engineering", 2018, "Karnataka", 7),
                 new Student(10, "Shubham", "Pandey", 26, "Male", "Instrumentation Engineering", 2017, "Mumbai", 98));
 
-//        find list of strudent whose first name start with alphabate 'A'
+//      find list of student whose first name start with alphabate 'A'
         List<Student> listStunam = list.stream()
                 .filter(name->name.getFirstName().startsWith("A")).collect(Collectors.toList());
         System.out.println("Students whose name start with A: " +listStunam);
 
-//        Group the student by Department name
+//      Group the student by Department name
         Map<String,List<Student>> mapData = list.stream()
                 .collect(Collectors.groupingBy(Student::getDepartmentName));
         System.out.println(mapData);
@@ -71,12 +71,6 @@ Map<String,Double> mapAvgAge = list.stream()
                 .sorted(Comparator.comparing(Student::getFirstName))
                 .collect(Collectors.toList());
         System.out.println("Students who stays in delhi :"+lstDelhi);
-
-
-
-
-
-
 
     }
 

@@ -17,13 +17,19 @@ public class ReverseWords
     {
         int start=0;
         for(int end=0;end<n;end++) {
-            if (str[end] == ' '){
+            if (str[end] == ' ')
+            {
                 reverse(str, start, end);
-            start = end + 1;
+                start = end + 1;
+            }
         }
-        }
+        System.out.println(str);
+
         reverse(str,start,n-1);
+        System.out.println(str);
+
         reverse(str,0,n-1);
+        System.out.println(str);
     }
 
     public static void main(String args[])
