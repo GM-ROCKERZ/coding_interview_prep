@@ -16,7 +16,7 @@ public class LongestSubstringWithkConstraint
             char c = s.charAt(right);
             counts.put(c, counts.getOrDefault(c,0)+1);
 
-            while(counts.size() >k)
+            while(counts.size()>k)
             {
                 char remove =s.charAt(left);
                 counts.put(remove,counts.getOrDefault(remove,0)-1);

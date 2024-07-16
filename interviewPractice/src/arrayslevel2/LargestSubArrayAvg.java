@@ -10,6 +10,7 @@ public class LargestSubArrayAvg {
             curr += nums[i];
         }
         double result = curr;
+        System.out.println(result);
         for(int i=k;i<nums.length;i++)
         {
             curr+= nums[i]-nums[i-k];
