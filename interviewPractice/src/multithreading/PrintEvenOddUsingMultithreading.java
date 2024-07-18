@@ -1,4 +1,4 @@
-package interviewPractice.src.arrayslevel2;
+package interviewPractice.src.multithreading;
 
 public class PrintEvenOddUsingMultithreading
 {
