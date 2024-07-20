@@ -6,7 +6,7 @@ public class MaximumSubarray
     {
         int currSum =0;
         int n = arr.length;
-        int result = 0;
+        int result;
 
         for(int i =0;i<k;i++)
         {

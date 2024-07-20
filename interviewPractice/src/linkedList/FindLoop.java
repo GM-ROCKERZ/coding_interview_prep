@@ -4,8 +4,8 @@ public class FindLoop
 {
     public boolean hasCycle(ListNode head)
     {
-        ListNode slow = head;
         ListNode fast = head;
+        ListNode slow = head;
 
         while(fast != null && fast.next !=null)
         {
