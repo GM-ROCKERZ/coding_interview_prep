@@ -25,11 +25,3 @@ class PercentageDiscount extends Discount
         return price-(price * percentage/100);
     }
 }
-
-class OrderProcessor
-{
-    public double processOrder(double price,Discount discount)
-    {
-        return discount.apply(price);
-    }
-}
