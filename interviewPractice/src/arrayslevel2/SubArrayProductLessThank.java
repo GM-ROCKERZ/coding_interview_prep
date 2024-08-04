@@ -16,7 +16,7 @@ public class SubArrayProductLessThank
                 curr/=nums[left];
                 left++;
             }
-            ans+=right-left+1;
+            ans=right-left+1;
         }
         return ans;
     }
