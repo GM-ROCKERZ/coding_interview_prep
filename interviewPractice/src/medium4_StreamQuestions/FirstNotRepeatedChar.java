@@ -1,6 +1,7 @@
 package interviewPractice.src.medium4_StreamQuestions;
 
 import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -14,7 +15,7 @@ public class FirstNotRepeatedChar
                 .collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new,Collectors.counting()))
                 .entrySet().stream()
                 .filter(x->x.getValue()==1L)
-                .map(x->x.getKey())
+                .map(Map.Entry::getKey)
                 .findFirst()
                 .get();
         System.out.println("First non repeated character :"+firstnotrepeatedchar);
