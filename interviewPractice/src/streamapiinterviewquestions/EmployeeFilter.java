@@ -1,4 +1,4 @@
-package interviewPractice.src.streamapiinterviewquestions;
+package streamapiinterviewquestions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,16 +8,16 @@ public class EmployeeFilter
 {
     public static void main(String args[])
     {
-        List<Employee1> employees = new ArrayList<>();
-        employees.add(new Employee1("John", 12000));
-        employees.add(new Employee1("Jane", 8000));
-        employees.add(new Employee1("Mark", 3000));  // This should cause an exception
-        employees.add(new Employee1("Lucy", 15000));
-        employees.add(new Employee1("David", 5000));
+        List<interviewPractice.src.streamapiinterviewquestions.Employee1> employees = new ArrayList<>();
+        employees.add(new interviewPractice.src.streamapiinterviewquestions.Employee1("John", 12000));
+        employees.add(new interviewPractice.src.streamapiinterviewquestions.Employee1("Jane", 8000));
+        employees.add(new interviewPractice.src.streamapiinterviewquestions.Employee1("Mark", 10000));  // This should cause an exception
+        employees.add(new interviewPractice.src.streamapiinterviewquestions.Employee1("Lucy", 15000));
+        employees.add(new interviewPractice.src.streamapiinterviewquestions.Employee1("David", 5000));
 
         try
         {
-            List<Employee1> filteredEmployees = employees.stream()
+            List<interviewPractice.src.streamapiinterviewquestions.Employee1> filteredEmployees = employees.stream()
                     .peek(employee1 ->
                     {
                         if (employee1.getSalary()<5000)

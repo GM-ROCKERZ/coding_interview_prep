@@ -1,4 +1,4 @@
-package interviewPractice.src.medium4_StreamQuestions;
+package medium4_StreamQuestions;
 
 public class ArmstrongNumber
 {

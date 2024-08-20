@@ -1,4 +1,4 @@
-package interviewPractice.src.frequentlyaskedquestionspart1;
+package frequentlyaskedquestionspart1;
 
 import java.util.*;
 

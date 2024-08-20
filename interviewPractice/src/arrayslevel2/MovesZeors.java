@@ -1,6 +1,4 @@
-package interviewPractice.src.arrayslevel2;
-
-import java.util.Arrays;
+package arrayslevel2;
 
 public class MovesZeors
 {

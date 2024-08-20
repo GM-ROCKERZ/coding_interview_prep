@@ -1,4 +1,4 @@
-package interviewPractice.src.arrayslevel2;
+package arrayslevel2;
 
 import java.util.HashSet;
 import java.util.Set;

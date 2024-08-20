@@ -1,9 +1,8 @@
-package interviewPractice.src.medium;
+package medium;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ForkJoinPool;
-import java.util.stream.Collectors;
 
 public class ParallelStreamExample
 {

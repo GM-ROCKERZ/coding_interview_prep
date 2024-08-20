@@ -1,4 +1,4 @@
-package interviewPractice.src.streamapiinterviewquestions;
+package streamapiinterviewquestions;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class StringLengthGreaterThan5
 {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         List<String> names = Arrays.asList("John", "Alexander", "Chris", "Elizabeth", "Amy", "Michael");
 

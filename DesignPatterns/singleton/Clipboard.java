@@ -3,7 +3,7 @@ package DesignPatterns.singleton;
 public class Clipboard
 {
     private String value;
-    private static volatile Clipboard clipboard =null;
+    private static volatile Clipboard clipboard = null;
 
     //private constructor to prevent instantiation from outside
     private Clipboard()

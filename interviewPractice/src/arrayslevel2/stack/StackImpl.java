@@ -1,4 +1,4 @@
-package interviewPractice.src.arrayslevel2.stack;
+package arrayslevel2.stack;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package interviewPractice.src.streamapiinterviewquestions;
+package streamapiinterviewquestions;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,7 +10,7 @@ public class SortStrings
     {
         List<String> strings = Arrays.asList("apple","banana","grape","watermelon","kiwi","orange");
         List<String> sortedUpperCase = strings.stream()
-                .map(str->str.toUpperCase())
+                .map(String::toUpperCase)
                 .sorted()
                 .collect(Collectors.toList());
 

@@ -1,4 +1,4 @@
-package interviewPractice.src.streamapiinterviewquestions;
+package streamapiinterviewquestions;
 
 import java.net.Inet4Address;
 import java.util.Arrays;

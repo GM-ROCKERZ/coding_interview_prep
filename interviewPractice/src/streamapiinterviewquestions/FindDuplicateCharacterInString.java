@@ -1,7 +1,8 @@
-package interviewPractice.src.streamapiinterviewquestions;
+package streamapiinterviewquestions;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class FindDuplicateCharacterInString
@@ -20,7 +21,7 @@ public class FindDuplicateCharacterInString
                 .collect(Collectors.groupingBy(ch->ch,Collectors.counting()))
                 .entrySet().stream()
                 .filter(cha->cha.getValue()>1)
-                .map(in->in.getKey())
+                .map(Map.Entry::getKey)
                 .collect(Collectors.toList());
     }
 }

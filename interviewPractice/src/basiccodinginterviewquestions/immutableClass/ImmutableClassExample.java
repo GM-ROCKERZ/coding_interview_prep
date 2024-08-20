@@ -1,4 +1,4 @@
-package interviewPractice.src.basiccodinginterviewquestions.immutableClass;
+package basiccodinginterviewquestions.immutableClass;
 
 public final class ImmutableClassExample
 {

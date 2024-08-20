@@ -1,4 +1,4 @@
-package interviewPractice.src.arrayslevel2;
+package arrayslevel2;
 
 public class MissingNumber
 {

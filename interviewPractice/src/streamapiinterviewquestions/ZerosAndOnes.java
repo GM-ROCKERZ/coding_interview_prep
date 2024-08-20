@@ -1,13 +1,13 @@
-package interviewPractice.src.streamapiinterviewquestions;
+package streamapiinterviewquestions;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
 public class ZerosAndOnes
 {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
-        Integer array[] = {1,1,0,1,0};
+        Integer[] array = {1,1,0,1,0};
 
         System.out.println(Arrays.stream(array)
                 .sorted().collect(Collectors.toList()));

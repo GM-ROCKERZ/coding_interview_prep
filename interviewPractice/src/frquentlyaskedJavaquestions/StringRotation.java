@@ -1,4 +1,4 @@
-package interviewPractice.src.frquentlyaskedJavaquestions;
+package frquentlyaskedJavaquestions;
 
 public class StringRotation
 {

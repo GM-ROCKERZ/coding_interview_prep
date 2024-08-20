@@ -1,4 +1,4 @@
-package interviewPractice.src.linkedList;
+package linkedList;
 
 public class RemovingDuplicates
 {

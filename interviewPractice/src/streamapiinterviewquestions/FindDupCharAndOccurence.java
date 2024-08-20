@@ -1,4 +1,4 @@
-package interviewPractice.src.streamapiinterviewquestions;
+package streamapiinterviewquestions;
 
 import java.util.Arrays;
 import java.util.LinkedHashMap;
