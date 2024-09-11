@@ -1,4 +1,4 @@
-package frequentlyaskedquestionspart1;
+package interviewPractice.src.frequentlyaskedquestionspart1;
 
 public class NonRepeatingCharacter
 {

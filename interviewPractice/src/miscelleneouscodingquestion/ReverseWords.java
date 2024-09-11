@@ -34,7 +34,7 @@ public class ReverseWords
 
     public static void main(String args[])
     {
-        String s = "Welcome to Bangalore";
+        String s = "Welcome to java world";
         int n = s.length();
         char[] str = s.toCharArray();
         System.out.println("After reversing words in string");
