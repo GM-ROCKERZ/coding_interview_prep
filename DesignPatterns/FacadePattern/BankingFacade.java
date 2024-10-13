@@ -8,9 +8,6 @@ public class BankingFacade
     private BillPaymentService billPaymentService;
 
     public BankingFacade() {
-        this.accountService = accountService;
-        this.transferService = transferService;
-        this.billPaymentService = billPaymentService;
     }
 
     public void getAccountDetails(String accountId)

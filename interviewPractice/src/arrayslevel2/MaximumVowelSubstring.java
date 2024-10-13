@@ -8,7 +8,7 @@ public class MaximumVowelSubstring
         int curr =0;
         int ans =0;
 
-        for(int i=0;i<k;i++)
+        for(int i=0;i<s.length();i++)
         {
             if(vowel.indexOf(s.charAt(i))>=0)
                 curr++;
